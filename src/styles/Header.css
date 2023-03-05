@@ -1,5 +1,6 @@
 .header {
-    color: red;
+    display: flex;
+    justify-content: space-between;
+    color: blue;
     background-image: url("../assets/bg.jpg");
-    padding: 3rem;
 }

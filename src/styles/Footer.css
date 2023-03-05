@@ -1,0 +1,7 @@
+footer {
+    text-align: center;
+}
+
+footer a:not(:last-child) {
+    margin-right: 1.5rem;
+}
