@@ -1,21 +1,29 @@
 import React from "react";
 import "../styles/Navigation.css";
 
-function Navigation() {
+function Navigation({ currentPage, handlePageChange }) {
     return (
         <nav>
             <ul>
                 <li>
-                    <a href="#/">About Me</a>
+                    <a href="#about" onClick={() => handlePageChange("About")}>
+                        About Me
+                    </a>
                 </li>
                 <li>
-                    <a href="#/">Portfolio</a>
+                    <a href="#/" onClick={() => handlePageChange("Portfolio")}>
+                        Portfolio
+                    </a>
                 </li>
                 <li>
-                    <a href="#/">Contact</a>
+                    <a href="#/" onClick={() => handlePageChange("Contact")}>
+                        Contact
+                    </a>
                 </li>
                 <li>
-                    <a href="#/">Resume</a>
+                    <a href="#/" onClick={() => handlePageChange("Resume")}>
+                        Resume
+                    </a>
                 </li>
             </ul>
         </nav>

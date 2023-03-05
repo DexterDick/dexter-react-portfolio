@@ -1,16 +1,6 @@
 import "./index.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Content from "./components/Content";
+import PortfolioContainer from "./components/PortfolioContainer";
 
-function App() {
-    return (
-        <div>
-            <Header />
-            <Content />
-            <Footer />
-        </div>
-    );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
