@@ -2,3 +2,7 @@ nav ul {
     display: flex;
     gap: 2rem;
 }
+
+.active {
+    background-color: green;
+}

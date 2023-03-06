@@ -7,7 +7,10 @@ function Header(props) {
         <header className="header">
             <h1>Dexter's portfolio </h1>
 
-            <Navigation />
+            <Navigation
+                currentPage={props.currentPage}
+                handlePageChange={props.handlePageChange}
+            />
         </header>
     );
 }
