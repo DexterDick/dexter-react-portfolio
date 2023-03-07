@@ -2,9 +2,9 @@ import React from "react";
 import Dexter from "../../assets/Dexter.jpg";
 function About() {
     return (
-        <div>
-            <h3>About page</h3>
-            <img src={Dexter} alt="Dexter Dick" />
+        <div className="page">
+            <h3>About Me</h3>
+            <img src={Dexter} alt="Dexter Dick" className="profile-img" />
             <p>
                 Hi, I’m Dexter! I’m a Full stack web developer with broad skills
                 and experience in HTML, CSS, JavaScript, Node.js, React, SQL,

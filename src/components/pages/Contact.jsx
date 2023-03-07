@@ -44,7 +44,7 @@ function Contact() {
     };
 
     return (
-        <div>
+        <div className="page">
             <h3>Contact page</h3>
             <form>
                 <div>

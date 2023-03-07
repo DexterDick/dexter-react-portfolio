@@ -22,16 +22,18 @@ export default function PortfolioContainer() {
 
     return (
         <div>
-            {/*pass props to Navigigation to track current page */}
-            <Header
-                currentPage={currentPage}
-                handlePageChange={handlePageChange}
-            />
+            <div className="test">
+                {/*pass props to Navigigation to track current page */}
+                <Header
+                    currentPage={currentPage}
+                    handlePageChange={handlePageChange}
+                />
 
-            {/*render page content on the screen */}
-            <main>{renderPage()}</main>
+                {/*render page content on the screen */}
+                <main>{renderPage()}</main>
 
-            <Footer />
+                <Footer />
+            </div>
         </div>
     );
 }

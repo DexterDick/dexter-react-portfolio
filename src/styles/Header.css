@@ -1,6 +1,25 @@
 .header {
     display: flex;
     justify-content: space-between;
-    color: blue;
+    padding: 2rem 1rem;
+    color: var(--color-green);
+    margin-bottom: 3rem;
+
     background-image: url("../assets/bg.jpg");
+}
+
+.header h1 {
+    color: #025454;
+    font-size: 3rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    padding: 1rem;
+    color: var(--color-green);
+    font-weight: 600;
 }

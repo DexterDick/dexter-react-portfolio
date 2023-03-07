@@ -5,7 +5,9 @@ import Navigation from "./Navigation";
 function Header(props) {
     return (
         <header className="header">
-            <h1>Dexter's portfolio </h1>
+            <h1>
+                Dexter's <span className="portfolio">portfolio</span>{" "}
+            </h1>
 
             <Navigation
                 currentPage={props.currentPage}

@@ -3,6 +3,9 @@ nav ul {
     gap: 2rem;
 }
 
+nav a {
+}
+
 .active {
-    background-color: green;
+    background-color: #71f2f2;
 }

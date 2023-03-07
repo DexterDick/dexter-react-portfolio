@@ -1,9 +1,12 @@
 import React from "react";
 function Project(props) {
     return (
-        <div>
+        <div className="project">
             {props.projects.map((project) => (
-                <p> {project.title}</p>
+                <div>
+                    <p> {project.title}</p>
+                    <img src={project.img} alt="" />
+                </div>
             ))}
         </div>
     );
