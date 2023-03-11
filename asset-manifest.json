@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dexter-react-portfolio/static/css/main.f2d6bfd4.css",
+    "main.js": "/dexter-react-portfolio/static/js/main.76bd3435.js",
+    "static/js/787.82a081bf.chunk.js": "/dexter-react-portfolio/static/js/787.82a081bf.chunk.js",
+    "static/media/horiseon.png": "/dexter-react-portfolio/static/media/horiseon.a29da3500282ff7615d3.png",
+    "static/media/smarttax.png": "/dexter-react-portfolio/static/media/smarttax.b097b30cd5a6556d4896.png",
+    "static/media/weather-dashboard-api.png": "/dexter-react-portfolio/static/media/weather-dashboard-api.0b9b94b9cca91a1108da.png",
+    "static/media/project-1-fitness-lind.png": "/dexter-react-portfolio/static/media/project-1-fitness-lind.034e74a8fc1e5d1c771e.png",
+    "static/media/coding-quiz.png": "/dexter-react-portfolio/static/media/coding-quiz.2b2c954b389dde40ee3e.png",
+    "static/media/work-day-scheduler.png": "/dexter-react-portfolio/static/media/work-day-scheduler.41b03c33e678c24ee96a.png",
+    "static/media/Dexter.jpg": "/dexter-react-portfolio/static/media/Dexter.82f79ef6ba16150ab7a3.jpg",
+    "static/media/bg.jpg": "/dexter-react-portfolio/static/media/bg.0323f8173d0ce7e26a34.jpg",
+    "static/media/Dexter's Job resume.doc": "/dexter-react-portfolio/static/media/Dexter's Job resume.faec97409c6467f22fab.doc",
+    "index.html": "/dexter-react-portfolio/index.html",
+    "main.f2d6bfd4.css.map": "/dexter-react-portfolio/static/css/main.f2d6bfd4.css.map",
+    "main.76bd3435.js.map": "/dexter-react-portfolio/static/js/main.76bd3435.js.map",
+    "787.82a081bf.chunk.js.map": "/dexter-react-portfolio/static/js/787.82a081bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2d6bfd4.css",
+    "static/js/main.76bd3435.js"
+  ]
+}
