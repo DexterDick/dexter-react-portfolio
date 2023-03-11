@@ -1,16 +1,21 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 2rem 1rem;
     color: var(--color-green);
     margin-bottom: 3rem;
 
     background-image: url("../assets/bg.jpg");
+    object-fit: cover;
 }
 
 .header h1 {
     color: #025454;
-    font-size: 3rem;
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
 }
 
 ul {
@@ -22,4 +27,17 @@ li a {
     padding: 1rem;
     color: var(--color-green);
     font-weight: 600;
+}
+
+@media only screen and (min-width: 933px) {
+    .header h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .header {
+        justify-content: space-between;
+        flex-direction: row;
+    }
 }
