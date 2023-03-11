@@ -29,9 +29,23 @@ function Contact() {
         // Preventing the default behavior of the form submit (which is to refresh the page)
         e.preventDefault();
 
+        if (!name) {
+            setErrorMessage("Name empty or invalid");
+            // We want to exit out of this code block if something is wrong so that the user can correct it
+            return;
+            // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
+        }
+
         // First we check to see if the name email or message is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-        if (!validateEmail(email) || !name || !message) {
-            setErrorMessage("Email name or message is invalid");
+        if (!validateEmail(email)) {
+            setErrorMessage("Email message is invalid");
+            // We want to exit out of this code block if something is wrong so that the user can correct it
+            return;
+            // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
+        }
+
+        if (!message) {
+            setErrorMessage("Please enter message");
             // We want to exit out of this code block if something is wrong so that the user can correct it
             return;
             // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
@@ -45,7 +59,7 @@ function Contact() {
 
     return (
         <div className="page">
-            <h3>Contact page</h3>
+            <h3>Contact me</h3>
             <form>
                 <div>
                     <label for="name">Enter your name: </label>

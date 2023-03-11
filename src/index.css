@@ -5,7 +5,9 @@
     --color-light-green: #71f2f2;
 }
 
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -13,7 +15,7 @@
 }
 
 .page {
-    margin-left: 3rem;
+    margin: 0 5%;
 }
 
 .page h3 {
@@ -34,4 +36,10 @@
 
 .project p {
     font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
 }

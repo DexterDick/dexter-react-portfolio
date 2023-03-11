@@ -7,7 +7,7 @@ function Portfolio() {
         <section className="page">
             <h3>Portfolio page</h3>
             <div className="portfolio-grid">
-                <Project projects={projectData} />
+                <Project />
             </div>
         </section>
     );

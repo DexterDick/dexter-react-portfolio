@@ -5,13 +5,19 @@ function Footer() {
     return (
         <footer>
             <a href="https://github.com/DexterDick" target="_blank">
-                <i class="fa-brands fa-github"></i>
+                Github
             </a>
-            <a href="https://github.com/DexterDick" target="_blank">
-                <i class="fa-brands fa-twitter"></i>
+            <a
+                href="https://www.frontendmentor.io/profile/DexterDick"
+                target="_blank"
+            >
+                Frontend mentor
             </a>
-            <a href="https://github.com/DexterDick" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
+            <a
+                href="https://www.linkedin.com/in/dexter-dick-4b5924269/"
+                target="_blank"
+            >
+                Linkedin
             </a>
         </footer>
     );
