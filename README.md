@@ -25,3 +25,5 @@ The footer section contains links to my Github, Frontend mentor and LinkedIn pro
 https://github.com/DexterDick/dexter-react-portfolio
 
 ## Application Link
+
+https://dexterdick.github.io/dexter-react-portfolio/
