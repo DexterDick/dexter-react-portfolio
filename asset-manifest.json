@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/dexter-react-portfolio/static/css/main.f2d6bfd4.css",
-    "main.js": "/dexter-react-portfolio/static/js/main.76bd3435.js",
+    "main.js": "/dexter-react-portfolio/static/js/main.aa68f4d1.js",
     "static/js/787.82a081bf.chunk.js": "/dexter-react-portfolio/static/js/787.82a081bf.chunk.js",
+    "static/media/emperorsdish.png": "/dexter-react-portfolio/static/media/emperorsdish.ffeab21fb94175aad022.png",
     "static/media/horiseon.png": "/dexter-react-portfolio/static/media/horiseon.a29da3500282ff7615d3.png",
     "static/media/smarttax.png": "/dexter-react-portfolio/static/media/smarttax.b097b30cd5a6556d4896.png",
     "static/media/weather-dashboard-api.png": "/dexter-react-portfolio/static/media/weather-dashboard-api.0b9b94b9cca91a1108da.png",
@@ -14,11 +15,11 @@
     "static/media/Dexter's Job resume.doc": "/dexter-react-portfolio/static/media/Dexter's Job resume.faec97409c6467f22fab.doc",
     "index.html": "/dexter-react-portfolio/index.html",
     "main.f2d6bfd4.css.map": "/dexter-react-portfolio/static/css/main.f2d6bfd4.css.map",
-    "main.76bd3435.js.map": "/dexter-react-portfolio/static/js/main.76bd3435.js.map",
+    "main.aa68f4d1.js.map": "/dexter-react-portfolio/static/js/main.aa68f4d1.js.map",
     "787.82a081bf.chunk.js.map": "/dexter-react-portfolio/static/js/787.82a081bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2d6bfd4.css",
-    "static/js/main.76bd3435.js"
+    "static/js/main.aa68f4d1.js"
   ]
 }
